@@ -1,0 +1,90 @@
+* {
+	box-sizing: border-box;
+}
+body {
+margin: 0;
+}
+.row{
+display:flex;
+	justify-content:flex-start;
+	align-items:stretch;
+	flex-wrap:nowrap;
+padding:10px;
+}
+.cell{
+	min-height:75px;
+	flex-grow:1;
+	flex-basis:100%;
+}
+#ioxn4y{
+height:418px;
+       justify-content:space-around;
+       align-items:center;
+       label-parent-flex:2;
+       flex-direction:row;
+}
+#irmjof{
+padding:0 0 0 0;
+}
+.playername{
+padding:10px;
+}
+.score{
+padding:10px;
+float:left;
+width:75%;
+height:auto;
+       font-size:5em;
+       align-items:flex-start;
+}
+.imagecell{
+	text-align:center;
+	font-weight:700;
+	line-height:normal;
+	align-self:flex-start;
+	max-width:50%;
+}
+.realimagecell{
+	flex-direction:column;
+	label-parent-flex:0;
+flex:0 0 100%;
+display:flex;
+	justify-content:center;
+	align-self:flex-start;
+}
+.merchant{
+color:black;
+width:50%;
+      justify-content:center;
+      max-width:50px;
+}
+.longestroad{
+color:black;
+width:50%;
+      justify-content:center;
+      max-width:50px;
+}
+.metropolis{
+color:black;
+width:50%;
+      justify-content:center;
+      max-width:50px;
+}
+.metropolis.bluemetropolis{
+color:black;
+width:50%;
+      justify-content:center;
+      max-width:50px;
+}
+.metropolis.greenmetropolis{
+color:black;
+width:50%;
+      justify-content:center;
+      max-width:50px;
+}
+@media (max-width: 768px){
+	.row{
+		flex-wrap:wrap;
+	}
+}
+
